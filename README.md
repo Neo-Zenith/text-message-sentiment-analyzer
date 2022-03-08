@@ -1,5 +1,10 @@
 # Text-based Emotion Classifier
 
+## Aim
+### To identify the underlying emotions of a given text message. <br>
+> Our project can be useful in the following scenario: <br>
+> · Sentimental analysis of customer review. <br>
+
 ## Dataset 
 #### Source of Dataset
 > https://www.kaggle.com/praveengovi/emotions-dataset-for-nlp by Praveen
