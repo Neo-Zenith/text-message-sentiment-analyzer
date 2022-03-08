@@ -16,7 +16,12 @@ from sklearn.naive_bayes import MultinomialNB
 > We will be creating our model using the **train** dataset. The test and validate datasets are used to check the accuracy of our model.
 ``` Py
 
+import os
+dir = os.getcwd()
+os.chdir("..")
+
 train_data = pd.read_csv("datasets/train.txt", sep = ';')
+os.chdir(dir)
 
 ```
 
