@@ -27,4 +27,5 @@ i am feeling grouchy;anger
 > [Numpy](https://numpy.org/doc/stable/) <br>
 > [Seaborn](https://seaborn.pydata.org/tutorial.html) <br>
 > [NeatText](https://pypi.org/project/neattext/) <br>
+> [Matplotlib](https://matplotlib.org/3.5.1/)<br>
 > [Scikit-Learn](https://scikit-learn.org/stable/)
