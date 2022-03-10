@@ -33,4 +33,13 @@ train_data['clean_text'] = train_data['clean_text'].apply(nfx.remove_userhandles
 
 ```
 
+> Finally, we save our cleaned dataset into a new file to be accessed by subsequent processes.
+``` Py
 
+dir = os.getcwd()
+os.chdir("..")
+
+train_data.to_csv('datasets/clean_train.csv', sep = ',', header = True)
+os.chdir(dir)
+
+```
