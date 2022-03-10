@@ -25,3 +25,12 @@ os.chdir(dir)
 
 ```
 
+> We start by cleaning our dataset.
+``` Py
+
+train_data['clean_text'] = train_data['text'].apply(nfx.remove_stopwords)
+train_data['clean_text'] = train_data['clean_text'].apply(nfx.remove_userhandles)
+
+```
+
+
