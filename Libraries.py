@@ -54,42 +54,49 @@ class NLPModel:
         print("The classification accuracy is: ", predScore)
         print("")
 
-        T_Anger_Rate = CM[0][0] / (CM[0][0] + CM[1][0] + CM[2][0] + CM[3][0] + CM[4][0] + CM[5][0])
-        F_Anger_Rate = 1 - T_Anger_Rate
+        precision = []
+        recall = []
+        f1 = []
 
-        T_Fear_Rate = CM[1][1] / (CM[0][1] + CM[1][1] + CM[2][1] + CM[3][1] + CM[4][1] + CM[5][1])
-        F_Fear_Rate = 1 - T_Fear_Rate
+        row = 0
+        col = 0
+        total = 0
+        for i in pd.Categorical(self.dataset[self.y]).categories:
+            for j in range(len(pd.Categorical(self.dataset[self.y]).categories)):
+                total += CM[row][col]
+                row += 1
 
-        T_Joy_Rate = CM[2][2] / (CM[0][2] + CM[1][2] + CM[2][2] + CM[3][2] + CM[4][2] + CM[5][2])
-        F_Joy_Rate = 1 - T_Joy_Rate
+            precision.append(CM[col][col] / total)
+            col += 1
+            row = 0
+            total = 0
 
-        T_Love_Rate = CM[3][3] / (CM[0][3] + CM[1][3] + CM[2][3] + CM[3][3] + CM[4][3] + CM[5][3])
-        F_Love_Rate = 1 - T_Love_Rate
+        row = 0
+        col = 0
+        total = 0
+        for i in pd.Categorical(self.dataset[self.y]).categories:
+            for j in range(len(pd.Categorical(self.dataset[self.y]).categories)):
+                total += CM[row][col]
+                col += 1
 
-        T_Sadness_Rate = CM[4][4] / (CM[0][4] + CM[1][4] + CM[2][4] + CM[3][4] + CM[4][4] + CM[5][4])
-        F_Sadness_Rate = 1 - T_Sadness_Rate
+            recall.append(CM[row][row] / total)
+            row += 1
+            col = 0
+            total = 0
 
-        T_Surprise_Rate = CM[5][5] / (CM[0][5] + CM[1][5] + CM[2][5] + CM[3][5] + CM[4][5] + CM[5][5])
-        F_Surprise_Rate = 1 - T_Surprise_Rate
+        index = 0
+        for i in pd.Categorical(self.dataset[self.y]).categories:
+            f1score = (2 * precision[index] * recall[index]) / (precision[index] + recall[index])
+            f1.append(f1score)
+            index += 1
+        
+        score_df = pd.DataFrame()
+        score_df['Emotion'] = pd.Categorical(self.dataset[self.y]).categories
+        score_df['Precision'] = precision
+        score_df['Recall'] = recall
+        score_df['F1-score'] = f1
 
-        print("True Anger Rate:\t", T_Anger_Rate)
-        print("False Anger Rate:\t", F_Anger_Rate)
-        print("")
-        print("True Fear Rate:\t\t", T_Fear_Rate)
-        print("False Fear Rate:\t", F_Fear_Rate)
-        print("")
-        print("True Joy Rate:\t\t", T_Joy_Rate)
-        print("False Joy Rate:\t\t", F_Joy_Rate)
-        print("")
-        print("True Love Rate:\t\t", T_Love_Rate)
-        print("False Love Rate:\t", F_Love_Rate)
-        print("")
-        print("True Sadness Rate:\t", T_Sadness_Rate)
-        print("False Sadness Rate:\t", F_Sadness_Rate)
-        print("")
-        print("True Surprise Rate:\t", T_Surprise_Rate)
-        print("False Surprise Rate:\t", F_Surprise_Rate)
-
+        return score_df
 
 def show_wordcloud(data, column, bg, max_words, max_font_size, scale, figsize):
     stopwords = set(STOPWORDS)
