@@ -32,7 +32,7 @@ i am feeling grouchy;anger
 > [Numpy](https://numpy.org/doc/stable/) <br>
 > [Seaborn](https://seaborn.pydata.org/tutorial.html) <br>
 > [NLTK](https://www.nltk.org) <br>
-> [Word Cloud](https://pypi.org/project/wordcloud/) <br>
+> [Word Cloud](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud) <br>
 > [Matplotlib](https://matplotlib.org/3.5.1/)<br>
 > [Scikit-Learn](https://scikit-learn.org/stable/)
 
@@ -73,7 +73,7 @@ i am feeling grouchy;anger
 > 
 > We are mainly using the [NLTK](https://www.nltk.org) library as our de-facto dataset cleaning library. <br>
 > 
-> We are mainly using the [Word Cloud](https://pypi.org/project/wordcloud/) as our main data visualisation library. <br>
+> We are mainly using the [Word Cloud](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud) as our main data visualisation library. <br>
 > 
 > Please refer to [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb) under `Exploratory Data Analysis` for the details of our source code.
 
