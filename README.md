@@ -35,8 +35,8 @@ i am feeling grouchy;anger
 > [Word Cloud](https://pypi.org/project/wordcloud/) <br>
 > [Matplotlib](https://matplotlib.org/3.5.1/)<br>
 > [Scikit-Learn](https://scikit-learn.org/stable/)
->
-> Note: `Word Cloud` has not received any official support for Python 3.xx. Thus, we used [Word Cloud *unofficial*](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud) as our library instead. 
+
+> **Note:** `Word Cloud` has not received any official support for Python 3.xx. Thus, we used [Word Cloud *unofficial*](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud) as our library instead. 
 
 ## Custom Libraries
 > We have compiled a list of functions and classes which are useful during our project. These functions are repeatedly used within our project, and can be found in [Libraries](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries.py). <br>
