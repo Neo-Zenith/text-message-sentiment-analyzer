@@ -25,7 +25,7 @@ i am feeling grouchy;anger
 </pre>
 
 
-## Libraries
+## Default Libraries
 > The following libraries are used throughout the project. 
 
 > [Pandas](https://pandas.pydata.org/docs/) <br>
@@ -34,3 +34,6 @@ i am feeling grouchy;anger
 > [NeatText](https://pypi.org/project/neattext/) <br>
 > [Matplotlib](https://matplotlib.org/3.5.1/)<br>
 > [Scikit-Learn](https://scikit-learn.org/stable/)
+
+## Custom Libraries
+> We have compiled a list of functions and classes which are useful during our project. These functions are repeatedly used within our project, and can be found in [Libraries](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries.py). 
