@@ -38,4 +38,4 @@ i am feeling grouchy;anger
 ## Custom Libraries
 > We have compiled a list of functions and classes which are useful during our project. These functions are repeatedly used within our project, and can be found in [Libraries](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries.py). <br>
 > 
-> Please read [Libaries Information]() for the details of the functions and classes found within our custom library.
+> Please read [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md) for the details of the functions and classes found within our custom library.
