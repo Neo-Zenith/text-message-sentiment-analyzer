@@ -3,7 +3,7 @@
 ## Aim
 ### To identify the underlying emotions of a given text message. <br>
 > Our project can be useful in the following scenario: <br>
-> · Sentimental analysis of customer review. <br>
+> * Sentimental analysis of customer review. <br>
 
 ## Dataset 
 #### Source of Dataset
@@ -47,12 +47,13 @@ i am feeling grouchy;anger
 > For the progress of our project, please refer to [Updates](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Updates.md).
 
 ## Issues
-### Issue on Jupyter Notebook (Ipynb files) and Github
+### Issue on Jupyter Notebook (Ipynb files) and Github <br>
+### (UPDATE: Issue appears to have been fixed by Github)
 > There appears to be a widespread issue ongoing on Github w.r.t the incorrect printing/inability to print outputs from Jupyter Notebook formatted files. <br> <br>
 > **Replicable:** `Yes` <br>
 > **Source of Issue:** Most likely `Github` <br>
-> **Fixed:** `No` <br>
-> **Comments:** Please use alternative IDE to inspect the main code sections. [Visual Studio Code](https://code.visualstudio.com) is known to be working properly.
+> **Fixed:** `Yes` <br>
+> **Comments:** Please use alternative IDE to inspect the main code sections. [Visual Studio Code](https://code.visualstudio.com) is known to be working properly. 
 
 ## Overview
 > Our code section is divided into `3` main portion: <br>
