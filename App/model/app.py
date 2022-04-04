@@ -25,7 +25,7 @@ emotions_emoji_dict = {"anger":u"\U0001F620","fear":u"\U0001F628","joy":u"\U0001
 
 
 def main():
-    st.title("Emotion Classifier App")
+    st.title("Text-to-Emotion Classifier App")
     menu = ["Home","Monitor","About"]
     choice = st.sidebar.selectbox("Menu",menu)
 
@@ -37,7 +37,7 @@ def main():
             submit_text = st.form_submit_button(label='Submit')
 
         if submit_text:
-            col1,col2 = st.beta_columns(2)
+            col1,col2 = st.columns(2)
 
             # Apply the functions here
             prediction = predict_emotion(raw_text)
