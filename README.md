@@ -2,8 +2,11 @@
 
 ## Aim
 ### To identify the underlying emotions of a given text message. <br>
-> Our project can be useful in the following scenario: <br>
-> * Sentimental analysis of customer review. <br>
+>  In this day and age, texting has become a preferred way of communication for teenagers. The downside of texting is the lack of tone and emotions that is present in speaking. Text messages can be misinterpreted depending on the person reading it. <br>
+> Our goal is to an App that provide a solution to this misinterpretation by analysing texts and showing the emotion corresponding to the it. <br>
+> * Another usage of our app:
+> Sentimental analysis of customer review. 
+
 
 ## Dataset 
 #### Source of Dataset
