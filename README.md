@@ -3,7 +3,8 @@
 ## Aim
 ### To identify the underlying emotions of a given text message. <br>
 >  In this day and age, texting has become a preferred way of communication for teenagers. The downside of texting is the lack of tone and emotions that is present in speaking. Text messages can be misinterpreted depending on the person reading it. <br>
-> Our goal is to an App that provide a solution to this misinterpretation by analysing texts and showing the emotion corresponding to the it. <br>
+>  
+> Our goal is to an App that provide a solution to this misinterpretation by analysing texts and showing the emotion corresponding to the it.
 > * Another usage of our app:
 > Sentimental analysis of customer review. 
 
@@ -26,6 +27,12 @@ i didnt feel humiliated;sadness
 i am feeling grouchy;anger
 ...
 </pre>
+
+## Contributors 
+> This mini-project is co-authored by:
+> * Lee Juin (Alias: [Neo-Zenith](https://github.com/Neo-Zenith))
+> * Kassim bin Mohamad Malaysia (Alias: [kassimmalaysia](https://github.com/kassimmalaysia))
+> * Lee Ci Hui (Alias: [perfectsquare123](https://github.com/perfectsquare123))
 
 
 ## Default Libraries
@@ -51,7 +58,7 @@ i am feeling grouchy;anger
 
 ## Issues
 ### Issue on Jupyter Notebook (Ipynb files) and Github <br>
-### (UPDATE: Issue appears to have been fixed by Github)
+### (UPDATE: Issue have been fixed by Github)
 > There appears to be a widespread issue ongoing on Github w.r.t the incorrect printing/inability to print outputs from Jupyter Notebook formatted files. <br> <br>
 > **Replicable:** `Yes` <br>
 > **Source of Issue:** Most likely `Github` <br>
