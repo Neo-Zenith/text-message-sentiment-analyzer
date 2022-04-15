@@ -8,7 +8,7 @@
 > * To predict the emotion of a text message at a reasonable accuracy.
 > * To provide the predicted probability of each emotion from the given sentence to account for cases where a multitude of emotions are present.
 >
-> We figured a few potential routes to take our simple application further into development in the future:
+> In addition, we figured a few potential routes to take our simple application further into development in the future:
 > * Sentimental analysis of customer review on online products.
 > * Sentimental analysis of IMDB ratings of movies.
 > * Online dating profile matching algorithm fine-tuning based on the general perception of emotion from a conversation.
