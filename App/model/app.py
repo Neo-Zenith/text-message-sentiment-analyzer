@@ -61,7 +61,7 @@ def view_all_prediction_details():
 # main fucntion
 def main():
     st.title("Text-based Emotion Classifier App")
-    menu = ["Home","Monitor","About"]
+    menu = ["Home","Record","About"]
     choice = st.sidebar.selectbox("Menu",menu)
     create_page_visited_table()
     create_emotionclf_table()
@@ -104,9 +104,9 @@ def main():
                 fig = alt.Chart(proba_df_clean).mark_bar().encode(x='emotions',y='probability',color='emotions')
                 st.altair_chart(fig,use_container_width=True)
 
-    elif choice == "Monitor":
-        add_page_visited_details("Monitor",datetime.now())
-        st.subheader("Monitor App")
+    elif choice == "Record":
+        add_page_visited_details("Record",datetime.now())
+        st.subheader("History record")
 
         with st.beta_expander('Emotion Classifier Metrics'):
             df_emotions = pd.DataFrame(view_all_prediction_details(),columns=['Rawtext','Prediction','Probability','Time_of_Visit'])
