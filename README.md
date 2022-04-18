@@ -43,10 +43,15 @@ i am feeling grouchy;anger
 </pre>
 
 ### Contributors 
-> This mini-project is co-authored by:
-> * Lee Juin (Alias: [Neo-Zenith](https://github.com/Neo-Zenith))
-> * Kassim bin Mohamad Malaysia (Alias: [kassimmalaysia](https://github.com/kassimmalaysia))
-> * Lee Ci Hui (Alias: [perfectsquare123](https://github.com/perfectsquare123))
+* Lee Juin (Alias: [Neo-Zenith](https://github.com/Neo-Zenith))
+> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+> Documentation writing
+* Kassim bin Mohamad Malaysia (Alias: [kassimmalaysia](https://github.com/kassimmalaysia))
+> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+> Presentation slides & scripts writing
+* Lee Ci Hui (Alias: [perfectsquare123](https://github.com/perfectsquare123))
+> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+> Application design
 
 ### Default Libraries
 > The following libraries are used throughout the project. 
