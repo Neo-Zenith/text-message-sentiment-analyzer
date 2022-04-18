@@ -66,9 +66,6 @@ i am feeling grouchy;anger
 > Please read [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md) for the details of the functions and classes found within our custom library.
 
 ## Miscellaneous 
-### Updates
-> For the progress of our project, please refer to [Updates](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Updates.md).
-
 ### Issues
 #### [FIXED] Issue on Jupyter Notebook (Ipynb files) and Github  <br>
 > There appears to be a widespread issue ongoing on Github w.r.t the incorrect printing/inability to print outputs from Jupyter Notebook formatted files. <br> <br>
