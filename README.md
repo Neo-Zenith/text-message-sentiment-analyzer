@@ -84,9 +84,9 @@ i am feeling grouchy;anger
 ## Run-through
 ### Overview
 > Our code section is divided into `3` main portion: <br>
-> * [Data Preparation](https://github.com/Neo-Zenith/SC1015-GP/edit/main/README.md#data-preparation)
-> * [Exploratory Data Analysis](https://github.com/Neo-Zenith/SC1015-GP/edit/main/README.md#exploratory-data-analysis)
-> * [Machine Learning](https://github.com/Neo-Zenith/SC1015-GP/edit/main/README.md#machine-learning)
+> * [Data Preparation](#data-preparation)
+> * [Exploratory Data Analysis](#exploratory-data-analysis)
+> * [Machine Learning](#machine-learning)
 
 ### Data Preparation
 > In this section, we perform the necessary import of libraries, as well as our train dataset. We also performed simple analysis of our dataset to get a brief outlook of what kind of data we were dealing with. <br>
