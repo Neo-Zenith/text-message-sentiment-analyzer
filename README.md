@@ -79,7 +79,14 @@ i am feeling grouchy;anger
 > **Replicable:** `Yes` <br>
 > **Source of Issue:** Most likely `Github` <br>
 > **Fixed:** `Yes` <br>
-> **Comments:** Please use alternative IDE to inspect the main code sections. [Visual Studio Code](https://code.visualstudio.com) is known to be working properly. 
+> **Comments:** Please use an alternative IDE to inspect the main code sections. [Visual Studio Code](https://code.visualstudio.com) is known to be working properly. 
+
+#### Issue on the display of Jupyter Notebook (Ipynb files) on Github  <br>
+> In certain scenario, clicking into our Jupyter Notebook will not render the notebook completely, or there is a tiny scrollable box which displays the notebook itself. While it is possible to read the entire notebook this way, it is highly inconvenient and certain visualisation will not be seen in its entirety. <br> <br>
+> **Replicable:** `Yes` <br>
+> **Source of Issue:** Most likely due to the large file size of our notebook. <br>
+> **Fixed:** `No` <br>
+> **Comments:** Please refresh the notebook if the aforementioned error occurs. Otherwise, please use an alternative IDE to inspect the main code sections. [Visual Studio Code](https://code.visualstudio.com) is known to be working properly. 
 
 ## Run-through
 ### Overview
