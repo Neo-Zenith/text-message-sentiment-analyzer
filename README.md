@@ -43,15 +43,17 @@ i am feeling grouchy;anger
 </pre>
 
 ### Contributors 
-* Lee Juin (Alias: [Neo-Zenith](https://github.com/Neo-Zenith))
-> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
-> Documentation writing
-* Kassim bin Mohamad Malaysia (Alias: [kassimmalaysia](https://github.com/kassimmalaysia))
-> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
-> Presentation slides & scripts writing
-* Lee Ci Hui (Alias: [perfectsquare123](https://github.com/perfectsquare123))
-> Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
-> Application design
+**Lee Juin** (Alias: [@Neo-Zenith](https://github.com/Neo-Zenith))
+* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+* Documentation writing for [README](https://github.com/Neo-Zenith/Text-based-Emotion-Classifier/blob/main/README.md) & [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md)
+
+**Kassim bin Mohamad Malaysia** (Alias: [@kassimmalaysia](https://github.com/kassimmalaysia))
+* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+* Presentation slides & scripts writing
+
+**Lee Ci Hui** (Alias: [@perfectsquare123](https://github.com/perfectsquare123))
+* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+* Application design
 
 ### Default Libraries
 > The following libraries are used throughout the project. 
@@ -116,3 +118,14 @@ i am feeling grouchy;anger
 > Finally we apply the best model we chose on the test dataset.
 > 
 > Please refer to [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb) under `Machine Learning` for the details of our source code.
+
+## Acknowledgements
+Special thanks to our Teaching Assistant, Ms. Song Nan, for providing some valuable feedbacks and suggestions throughout the project.
+
+### Reference
+Below are some links that we have used as references throughout the project:
+* https://towardsdatascience.com/comprehensive-guide-on-multiclass-classification-metrics-af94cfb83fbd
+* https://medium.com/@sangha_deb/naive-bayes-vs-logistic-regression-a319b07a5d4c#:~:text=Both%20Naive%20Bayes%20and%20Logistic,was%20generated%20given%20the%20results.
+* https://machinelearningmastery.com/repeated-k-fold-cross-validation-with-python/#:~:text=Repeated%20k-fold%20cross-validation%20provides%20a%20way%20to%20improve,all%20folds%20from%20all%20runs
+* https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/
+* https://towardsdatascience.com/nlp-part-3-exploratory-data-analysis-of-text-data-1caa8ab3f79d
