@@ -45,7 +45,7 @@ i am feeling grouchy;anger
 ### Contributors 
 **Lee Juin** (Alias: [@Neo-Zenith](https://github.com/Neo-Zenith))
 * Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
-* Documentation writing for [README](https://github.com/Neo-Zenith/Text-based-Emotion-Classifier/blob/main/README.md) & [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md)
+* Documentation writing for [README](#text-based-emotion-classifier) & [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md)
 
 **Kassim bin Mohamad Malaysia** (Alias: [@kassimmalaysia](https://github.com/kassimmalaysia))
 * Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
