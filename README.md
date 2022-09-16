@@ -1,4 +1,4 @@
-# Text-based Emotion Classifier
+# Text Message Sentiment Analyser
 
 ## Preface
 ### Objective(s)
