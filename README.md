@@ -44,15 +44,15 @@ i am feeling grouchy;anger
 
 ### Contributors 
 **Lee Juin** (Alias: [@Neo-Zenith](https://github.com/Neo-Zenith))
-* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
-* Documentation writing for [README](#text-based-emotion-classifier) & [Libaries Information](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Libraries%20Information.md)
+* Co-authored [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb)<br>
+* Documentation writing for [README](#text-based-emotion-classifier) & [Libaries Information](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb)
 
 **Kassim bin Mohamad Malaysia** (Alias: [@kassimmalaysia](https://github.com/kassimmalaysia))
-* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+* Co-authored [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb)<br>
 * Presentation slides & scripts writing
 
 **Lee Ci Hui** (Alias: [@perfectsquare123](https://github.com/perfectsquare123))
-* Co-authored [Text-based Emotion Classifier](https://github.com/Neo-Zenith/SC1015-GP/blob/main/Text-based%20Emotion%20Classifier.Ipynb)<br>
+* Co-authored [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb)<br>
 * Application design
 
 ### Default Libraries
@@ -98,7 +98,7 @@ i am feeling grouchy;anger
 ### Data Preparation
 > In this section, we perform the necessary import of libraries, as well as our train dataset. We also performed simple analysis of our dataset to get a brief outlook of what kind of data we were dealing with. <br>
 > 
-> Please refer to [Text-based Emotion Classifier](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) for the details of our source code.
+> Please refer to [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) for the details of our source code.
 
 ### Exploratory Data Analysis
 > In this section, we perform mainly more in-depth analysis of our dataset. From the analysis, we figured out that our dataset requires some cleaning. Thus, we have performed dataset cleaning which can be classified into the following 3 phases:
@@ -110,7 +110,7 @@ i am feeling grouchy;anger
 > 
 > We are mainly using the [Word Cloud](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud) as our main data visualisation library. <br>
 > 
-> Please refer to [Text-based Emotion Classifier](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) under `Exploratory Data Analysis` for the details of our source code.
+> Please refer to [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) under `Exploratory Data Analysis` for the details of our source code.
 
 ### Machine Learning
 > In this section, we perform machine learning by using the following 3 models on our train dataset:
@@ -124,7 +124,7 @@ i am feeling grouchy;anger
 > 
 > Finally we apply the best model we chose on the test dataset.
 > 
-> Please refer to [Text-based Emotion Classifier](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) under `Machine Learning` for the details of our source code.
+> Please refer to [Text-Message Sentiment Analyser](https://github.com/Neo-Zenith/Text-Message-Sentiment-Analyser/blob/main/Text-Message-Sentiment-Analyser.Ipynb) under `Machine Learning` for the details of our source code.
 
 ## Acknowledgements
 Special thanks to our Teaching Assistant, Ms. Song Nan, for providing some valuable feedbacks and suggestions throughout the project.
